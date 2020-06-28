@@ -1,0 +1,6 @@
+spring:
+  activemq:
+    broker-url: vm://embedded?broker.persistent=false,useShutdownHook=false
+    user: admin
+    password: admin
+    in-memory: true
